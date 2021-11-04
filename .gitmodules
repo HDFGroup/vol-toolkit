@@ -1,0 +1,12 @@
+[submodule "vol-template"]
+	path = vol-template
+	url = https://github.com/HDFGroup/vol-template.git
+[submodule "hdf5"]
+	path = hdf5
+	url = https://github.com/HDFGroup/hdf5.git
+[submodule "vol-external-passthrough"]
+	path = vol-external-passthrough
+	url = https://github.com/hpc-io/vol-external-passthrough.git
+[submodule "vol-tests"]
+	path = vol-tests
+	url = https://github.com/HDFGroup/vol-tests.git

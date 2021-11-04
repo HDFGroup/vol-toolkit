@@ -10,3 +10,6 @@
 [submodule "vol-tests"]
 	path = vol-tests
 	url = https://github.com/HDFGroup/vol-tests.git
+[submodule "vol-tutorial"]
+	path = vol-tutorial
+	url = https://github.com/HDFGroup/vol-tutorial.git

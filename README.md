@@ -16,7 +16,7 @@ or:
     `git submodule update --init`
 
 Note that the tutorial is a work in progress and will not be ready until 
-December 2021.
+February 2022.
 
 As a convenience and to ensure that everything stays in sync, we've also
 included the HDF5 library as a submodule. This is currently set to use the

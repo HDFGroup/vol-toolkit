@@ -1,4 +1,4 @@
-# A toolkit for HDF5 VOL connector authors
+# A Toolkit for HDF5 VOL Connector Authors
 
 This toolkit is intended to help HDF5 Virtual Object Layer (VOL) connector
 authors get up and running. It includes empty "templates" for both pass-through
@@ -22,6 +22,6 @@ the HDF5 1.13.0 release tag.
 
 **NOTE**
 
-All VOL development should target HDF5 1.13.0 (or the develop branch until 1.13
-is released). Important changes were made to the VOL interface that could not
-be brought to the 1.12 branch due to binary compatibility issues.
+All VOL development should target HDF5 1.13.x. Important changes were made to
+the VOL interface in 1.13 that could not be brought to the 1.12 branch due to
+binary compatibility issues.

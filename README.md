@@ -20,8 +20,33 @@ As a convenience and to ensure that everything stays in sync, we've also
 included the HDF5 library as a submodule. This is currently set to point to
 the HDF5 1.13.0 release tag.
 
-**NOTE**
+**IMPORTANT NOTE**
 
 All VOL development should target HDF5 1.13.x. Important changes were made to
 the VOL interface in 1.13 that could not be brought to the 1.12 branch due to
 binary compatibility issues.
+
+## Contents
+
+|docs|The current VOL connector author and user guides|
+|hdf5|Source for HDF5 1.13.0|
+|templates/vol-external-passthrough|Pass-through VOL template|
+|templates/vol-template|Terminal VOL template|
+|tutorial/vol-tutorial|Tutorial VOL connector (slides in doc/)|
+|vol-tests|Test suite for external VOL connectors|
+
+## Registered VOL Connectors
+
+This table was copied from the VOL documentation in the HDF5 support portal.
+The original can be found [here](https://portal.hdfgroup.org/display/support/Registered+VOL+Connectors).
+
+
+|Connector|Description|URL|
+|---------|-----------|---|
+|Asynchronous I/O|Provides support for asynchronous operations in HDF5.|[link](https://github.com/hpc-io/vol-async)|
+|Cache|Provides support for multi-level, multi-location data caching to dataset I/O operations.|[link](https://github.com/hpc-io/vol-cache)|
+|Log-based|The log-based VOL plugin stores HDF5 datasets in a log-based storage layout.|[link](https://github.com/DataLib-ECP/vol-log-based)|
+|DAOS|Designed to utilize the DAOS object storage system by use of the DAOS API.|[link](https://github.com/HDFGroup/vol-daos)|
+|dset-split|Creates separate sub files for each dataset created and mounts these sub-files as external links in the main file. It enables versioning of HDF5 files at a dataset boundary.|[link](https://github.com/hpc-io/vol-dset-split)|
+|PDC-VOL|Terminal VOL connector that reads and writes HDF5 objects to the PDC system.|[link](https://github.com/hpc-io/vol-pdc)|
+

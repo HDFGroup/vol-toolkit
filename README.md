@@ -28,6 +28,8 @@ binary compatibility issues.
 
 ## Contents
 
+|Directory|Contents|
+|---------|--------|
 |docs|The current VOL connector author and user guides|
 |hdf5|Source for HDF5 1.13.0|
 |templates/vol-external-passthrough|Pass-through VOL template|

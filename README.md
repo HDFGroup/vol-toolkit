@@ -17,25 +17,44 @@ or:
     `git submodule update --init`
 
 As a convenience and to ensure that everything stays in sync, we've also
-included the HDF5 library as a submodule. This is currently set to point to
-the HDF5 1.13.0 release tag.
+included the HDF5 library as a submodule.
+
+Git tags can be used to check out versions of this toolkit that map to specific
+versions of the HDF5 library. These will be maintained as the VOL and VOL-related
+products evolve.
 
 **IMPORTANT NOTE**
 
-All VOL development should target HDF5 1.13.x. Important changes were made to
-the VOL interface in 1.13 that could not be brought to the 1.12 branch due to
-binary compatibility issues.
+All VOL development should target HDF5 1.14.x. Important changes were made to
+the VOL interface in 1.14.0 that could not be brought to the 1.12 branch due to
+binary compatibility issues. 1.13.x releases were experimental releases
+(essentially betas that went through the full release process) that were
+created while preparing the 1.14.0 release. 1.13.x releases should not be used
+for VOL development.
 
 ## Contents
 
 |Directory|Contents|
 |---------|--------|
-|docs|The current VOL connector author and user guides|
 |hdf5|Source for HDF5 1.13.0|
 |templates/vol-external-passthrough|Pass-through VOL template|
 |templates/vol-template|Terminal VOL template|
 |tutorial/vol-tutorial|Tutorial VOL connector (slides in doc/)|
 |vol-tests|Test suite for external VOL connectors|
+
+## VOL Documentation
+
+The VOL documentation is a part of the HDF5 release documentation. The current version
+can be found [here](https://docs.hdfgroup.org/hdf5/develop/index.html). Links to the
+VOL connector author's guide and VOL user's guide can be found in the documentation
+sidebar.
+
+Additional information can be found in the [VOL documentation](https://portal.hdfgroup.org/display/HDF5/Virtual+Object+Layer)
+on the HDF5 support portal, though most of this will eventually move to the release
+documentation.
+
+Questions about the VOL and creating a connector can be asked on the [HDF Forum](https://forum.hdfgroup.org/),
+where you will find a 'VOLs and VFDs' category.
 
 ## Registered VOL Connectors
 
